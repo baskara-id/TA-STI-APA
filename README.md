@@ -2,12 +2,12 @@ Template Laporan Tugas Akhir STI STEI
 Institut Teknologi Bandung
 by baskara at itb dot ac dot id
 
-**Daftar dokumen utama** \
+**Daftar dokumen utama** 
 1. TA.tex
 2. daftar-pustaka.bib
 3. ta-sti.cls
 
-**Petunjuk Umum** \
+**Petunjuk Umum** 
 1.  Ada 3 file utama, yaitu 
     - TA.tex (file utama)
     - daftar-pustaka.bib (file daftar pustaka)
