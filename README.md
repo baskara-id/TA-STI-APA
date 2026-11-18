@@ -83,7 +83,7 @@ Eksekusi perintah-perintah berikut untuk melakukan kompilasi melalui command lin
 
 ```
 
-**Kompilasi menggunakan Lattice** \
+**Kompilasi menggunakan Lattice** 
 1. Lattice -> Settings -> Editor & builds -> Builds -> Compile Engine -> XeLaTeX
 2. Tanda titik tiga di pojok kanan atas -> Build
 
