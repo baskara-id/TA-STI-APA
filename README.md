@@ -1,6 +1,6 @@
 Template Laporan Tugas Akhir STI - STEI \
 Institut Teknologi Bandung (ITB) \
-by baskara at itb dot ac dot id \
+by baskara at itb dot ac dot id 
 
 **Daftar dokumen utama** 
 1. TA.tex
