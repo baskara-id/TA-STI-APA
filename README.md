@@ -8,7 +8,7 @@ Dokumen utama:
 
 by baskara at itb dot ac dot id
 
-Petunjuk penggunaan:
+**Petunjuk Umum**
 1.  Ada 3 file utama, yaitu 
     - TA.tex (file utama)
     - daftar-pustaka.bib (file daftar pustaka)
@@ -19,12 +19,26 @@ Petunjuk penggunaan:
 4.  Kompilasi file TA.tex menggunakan XeLaTeX dan Biber (lihat urutan cara kompilasi di bawah).
 5.  Hasil kompilasi adalah file TA.pdf yang siap untuk dicetak.
 
-Eksekusi perintah-perintah berikut untuk melakukan kompilasi melalui command line (cmd atau terminal):
-    1. xelatex tesis.tex
-    2. biber tesis      
-    3. xelatex  tesis.tex
-    4. xelatex  tesis.tex
+**Compiler**
+Secara umum, *compiler* dapat diunduh dari https://www.tug.org/texlive/. Namun, beberapa pengembang telah mengemas *installer* untuk berbagai sistem operasi yang memudahkan kita dalam instalasi. 
+1. Mac OS: MacTeX (https://tug.org/mactex/mactex-download.html).
+2. Windows: Miktex (https://miktex.org/download). Pilih All Downloads, kemudian pilih Net Installer untuk mengunduh semua paket.
+3. Linux: texlive (gunakan *installer* di distro masing-masing, misalnya *apt* di Ubuntu).
 
+**Text Editor**
+Secara umum, semua penyunting teks dapat digunakan, asalkan berkas disimpan dalam format *plaintext*, bukan *richtext*. 
+Namun, ada beberapa perangkat lunak yang direkomendasikan untuk digunakan karena dapat diintegrasikan dengan *compiler* (IDE).
+Beberapa di antaranya dapat dilihat di https://www.typetex.app/best-latex-editors-2026.
+Khusus pengguna Mac OS, direkomendasikan menggunakan VS Code, TexShop, atau Lattice (Newcomer, Free, https://leo1oel.github.io/lattice/).
+
+**Kompilasi menggunakan Terminal atau CMD**
+Eksekusi perintah-perintah berikut untuk melakukan kompilasi melalui command line (cmd atau terminal):
+1. xelatex TA.tex
+2. biber TA
+3. xelatex  TA.tex
+4. xelatex  TA.tex
+
+**Kompilasi menggunakan Visual Studio Code**
 Jika meenggunakan Visual Studio Code sebagai editor, pastikan menambahkan "latex-workshop.latex.tools" dan
     "latex-workshop.latex.recipes" di bawah ini di JSON User Settings:
 
@@ -60,8 +74,5 @@ Jika meenggunakan Visual Studio Code sebagai editor, pastikan menambahkan "latex
    ]
 
 
-Catatan:
- -  Pastikan Anda telah menginstal paket-paket LaTeX yang diperlukan, termasuk
-    biblatex-chicago dan fontspec.
--   Gunakan editor LaTeX yang mendukung XeLaTeX, seperti TeXstudio, Overleaf, TexShop (Mac OS) atau lainnya.
+
 
